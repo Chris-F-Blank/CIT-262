@@ -4,7 +4,7 @@
   "description": "Eu no se!",
   "main": "index.js",
   "scripts": {
-    "test": "fire"
+    "hello":"node helloworld.js"  
   },
   "repository": {
     "type": "git",
@@ -15,4 +15,7 @@
   ],
   "author": "Chris (Shiro)",
   "license": "ISC"
+
+  
+
 }
