@@ -8,19 +8,19 @@
 // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
 
 let myInfo = {
-    name: 'Brother Thayne',
-    photo: 'images/photo.jpg',
+    name: 'Christopher Fulcher',
+    photo: 'images/LOLZ.jpg',
     favoriteFoods: [
-        'Fettucini',
-        'Steak',
+        'Pupusas',
+        'Burgers',
         'Chicken',
-        'Shrimp',
-        'Baked Potato'
+        'Sea Food',
+        'Ceviche'
     ],
     hobbies: [
-        'Reading',
-        'Fishing',
-        'Camping'
+        'Casting with Resin',
+        'playing with friends',
+        'Wood working'
     ]
 };
 
@@ -30,16 +30,16 @@ let myInfo = {
 // Step 9: Add additional objects with the same properties for each place you've lived
 myInfo.placesLived = [
     {
-        place: 'Rexburg, ID',
-        length: '5 years'
+        place: 'San Salvador, ES',
+        length: '20 years'
     },
     {
-        place: 'Ammon, ID',
-        length: '3 years'
+        place: 'Heredia, CR',
+        length: ' years'
     },
     {
-        place: 'Sandy, UT',
-        length: '1 year'
+        place: 'Anaheim, Cali',
+        length: '2 years'
     }
 ]
 
@@ -88,4 +88,3 @@ myInfo.placesLived.forEach((placeLived) => {
     document.querySelector('#places-lived').appendChild(placesLivedPlace);
     document.querySelector('#places-lived').appendChild(placesLivedLength);
 })
-
