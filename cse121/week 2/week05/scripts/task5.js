@@ -27,7 +27,7 @@ if (dayOfWeek >= 1 && dayOfWeek <= 5) {
 // Step 6: Using an else statement, set the message variable to 'Woohoo!  It is the weekend!'
 
 if (dayOfWeek >= 1 && dayOfWeek <= 5) {
-  message1 = "Hang in there!";
+  message1 = "Hang in there!!!";
 } else {
   message1 = "Woohoo!  It is the weekend!";
 }
