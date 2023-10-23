@@ -47,6 +47,7 @@ function movePaddles() {
 let playerScore = 0;
 let computerScore = 0;
 const winningScore = 5; 
+
 function drawScores() {
   context.fillStyle = '#fff';
   context.font = '20px Arial';
