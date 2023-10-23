@@ -46,8 +46,7 @@ function movePaddles() {
 // Score variables
 let playerScore = 0;
 let computerScore = 0;
-const winningScore = 5; // Define the score required to win the game
-
+const winningScore = 5; 
 function drawScores() {
   context.fillStyle = '#fff';
   context.font = '20px Arial';
